@@ -25,7 +25,9 @@ Olin ymmärtänyt väärin mihin piti kloonata oppimispäiväkirjan tehtävänan
 | push --all | vie kaikkien haarojen muutokset etärepositorion haaraan |
 | branch paivakirja1 | luo uuden haaran |
 | branch | listaa paikalliset haarat |
-| branch -v | listaa etärepositorion haarat ja näyttää viimeisimman commitin |
+| branch -v | listaa paikalliset haarat ja näyttää viimeisimmän commitin |
+| branch -r | listaa etärepositorion haarat |
+| branch -r -v | listaa etärepositorion haarat ja näyttää viimeisimmän commitin |
 | switch paivakirja1 | vaihtaa haaran |
 | switch -c paivakirja1 | luo uuden haaran ja vaihtaa siihen |
 | checkout paivakirja3 | vaihtaa haaran |
