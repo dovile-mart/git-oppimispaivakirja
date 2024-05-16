@@ -6,6 +6,7 @@ Opin että voi muuttaa etärepositorion origin-nimen paikallisessa repositorioss
 Tarkastellin myös etärepositoriota komentorivillä.
 Olen tehnyt myös fetch-hakua ja sen tarkistusta paikallisesti (git checkout origin/master). Aiemmin olin aina vaan pullannut muutoksia ilman että tarkistin mitä muutoksia on tehty. 
 Mielestäni jatkossa voisin käyttää fetch-komentoa sääännöllisesti, jotta tarkistaisin mitä muutoksia on tapahtunut etärepositoriossa ennen kuin yhdistän paikallisiin muutoksiin.
+Olin vahingossa luonut paivakirja2-haaraan paivakirja3.md tiedoston pohjan, ja sen sain switch:illa kopioitu uutteen haaraan. Sen jälkeen poistin tiedoston paivakirja2:sta.
 
 __Mikä osion tehtävissä oli vaikeaa ja mikä helppoa? Mikä auttoi minua oppimaan? Miten selvitin esteet, jotka vaikuttivat tehtävän suorittamiseen?__
 
@@ -20,7 +21,8 @@ Olin ymmärtänyt väärin mihin piti kloonata oppimispäiväkirjan tehtävänan
 | branch -M master | luo tai päivittää master-nimisen päähaaran |
 | remote add origin _etärepositorion osiote_ | lisää etärepositorion paikalliseen repositorioon |
 | push -u origin master | vie muutokset etärepositorioon ja asettaa seuraamisen päähaaran master kanssa |
-| push --all | vie kaikkien haarojen muutokset etärepositorioon |
+| push | vie nykyisen haaran muutokset sen oletusarvoiseen etähaaraan |
+| push --all | vie kaikkien haarojen muutokset etärepositorion haaraan |
 | branch paivakirja1 | luo uuden haaran |
 | branch | listaa paikalliset haarat |
 | branch -v | listaa etärepositorion haarat ja näyttää viimeisimman commitin |
@@ -31,3 +33,4 @@ Olin ymmärtänyt väärin mihin piti kloonata oppimispäiväkirjan tehtävänan
 | rm paivakirja3.md | tiedoston poisto (paivakirja2-haarasta) |
 | remote rename | muuttaa etärepositorion nimen |
 | remote rm | poistaa etärepositorion paikallisesta repositoriosta |
+| fetch | hakee muutokset etärepositoriosta ja tallentaa ne paikallisesti |
