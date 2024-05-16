@@ -20,9 +20,14 @@ Olin ymmärtänyt väärin mihin piti kloonata oppimispäiväkirjan tehtävänan
 | branch -M master | luo tai päivittää master-nimisen päähaaran |
 | remote add origin _etärepositorion osiote_ | lisää etärepositorion paikalliseen repositorioon |
 | push -u origin master | vie muutokset etärepositorioon ja asettaa seuraamisen päähaaran master kanssa |
+| push --all | vie kaikkien haarojen muutokset etärepositorioon |
 | branch paivakirja1 | luo uuden haaran |
 | branch | listaa paikalliset haarat |
-| branch -v | listaa etärepositorion haarat |
+| branch -v | listaa etärepositorion haarat ja näyttää viimeisimman commitin |
 | switch paivakirja1 | vaihtaa haaran |
+| switch -c paivakirja1 | luo uuden haaran ja vaihtaa siihen |
+| checkout paivakirja3 | vaihtaa haaran |
+| checkout paivakirja2 paivakirja3.md | ollessa paivakirja3-haarassa kopioi paivakirja3.md-tiedoston paivakirja2-haarasta |
+| rm paivakirja3.md | tiedoston poisto (paivakirja2-haarasta) |
 | remote rename | muuttaa etärepositorion nimen |
 | remote rm | poistaa etärepositorion paikallisesta repositoriosta |
