@@ -28,6 +28,7 @@ Olin ymmärtänyt väärin mihin piti kloonata oppimispäiväkirjan tehtävänan
 | branch -v | listaa paikalliset haarat ja näyttää viimeisimmän commitin |
 | branch -r | listaa etärepositorion haarat |
 | branch -r -v | listaa etärepositorion haarat ja näyttää viimeisimmän commitin |
+| push origin --delete paivakirja-1 | poistaa etärepositorion haaran |
 | switch paivakirja1 | vaihtaa haaran |
 | switch -c paivakirja1 | luo uuden haaran ja vaihtaa siihen |
 | checkout paivakirja3 | vaihtaa haaran |
