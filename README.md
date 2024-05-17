@@ -1,3 +1,16 @@
+# Git-versionhallinta -kurssin oppimispäiväkirja (SOF011AS2A-3001)
+Tekijä: Dovile Martinonyte
+
+Tämä oppimispäiväkirja on luotu tehdessä harjoituksia, jotka liittyvät Git-versionhallinnan kurssiin. Kurssin tavoitteena oli oppia ja kerrata git-versionhallintajärjestelmän perusteita soveltamalla projektityössä. 
+
+Minun kokemus jokaisesta osiosta on kuvattu alla: 
+- Oppimispäiväkirjan [ensimmäisessä](#oppimispäiväkirja-paikallinen-git) osassa olen harjoitellut vi-editorin käyttöä sekä Git-versionhallinnan käyttöä pakallisesti. [Siirry päiväkirja 1:een](./paivakirja1.md).
+
+ - [Toisessa](#oppimispäiväkirja-hajautettu-git) osassa harjoitelin hajautetun gitin käyttöä. [Siirry päiväkirja 2:een](./paivakirja2.md).
+ 
+ - [Kolmannessa](#oppimispäiväkirja-git-projektissa) osassa harjoiteltu [projektin](https://github.com/dovile-mart/git-kurssi) kehittämistä virtuaalisen tiimikaverin (botin) kanssa. [Siirry päiväkirja 3:een](./paivakirja3.md).
+
+
 # Oppimispäiväkirja: Paikallinen git
 
 __Mitä uutta opin osiossa? Miten voisin hyödyntää oppimaani käytännössä?__
