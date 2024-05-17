@@ -85,6 +85,9 @@ Esim.
 | :w | tallentaa ja jättää tiedoston auki |
 |:q | lopettaa ilman tallentamista |
 | :wq tai SHIFT+zz | tallentaa ja sulkee vi-editorin |
+
+---
+
 # Oppimispäiväkirja: Hajautettu git
 
 __Mitä uutta opin osiossa? Miten voisin hyödyntää oppimaani käytännössä?__
@@ -123,7 +126,11 @@ Olin ymmärtänyt väärin mihin piti kloonata oppimispäiväkirjan tehtävänan
 | rm paivakirja3.md | tiedoston poisto (paivakirja2-haarasta) |
 | remote rename | muuttaa etärepositorion nimen |
 | remote rm | poistaa etärepositorion paikallisesta repositoriosta |
-| fetch | hakee muutokset etärepositoriosta ja tallentaa ne paikallisesti |# Oppimispäiväkirja: Git projektissa
+| fetch | hakee muutokset etärepositoriosta ja tallentaa ne paikallisesti |
+
+---
+
+# Oppimispäiväkirja: Git projektissa
 
 __Mitä uutta opin osiossa? Miten voisin hyödyntää oppimaani käytännössä?__
 
