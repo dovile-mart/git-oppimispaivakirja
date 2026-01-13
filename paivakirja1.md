@@ -82,6 +82,7 @@ Esim.
 | D | poistaa kaiken kursorin oikealla puolella |
 | cw | muuttaa kokonaisen sanan, kun kursori on sanan alussa|
 | dd | poistaa kokonaisen rivin |
+
 | x | yhden merkin poistaminen kursorin oikealta |
 | :w | tallentaa ja jättää tiedoston auki |
 | :q | lopettaa ilman tallentamista |
