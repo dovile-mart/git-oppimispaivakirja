@@ -68,22 +68,21 @@ Esim.
 
 | Komento | Kuvaus |
 | --------| ------ |
-| vi _tiedosto.txt_ | avaa tiedoston vi-editorille |
-| a | insert-tila |
-| SHIFT + ENTER | rivivaihto insert-tilassa |
-| ESC | pääsee pois tilasta |
-| o | uusi rivi |
-| r | muuttaa merkin kursorin jälkeen |
-| u | palauttaa aiemmat muutokset yksi kerralla |
-| k | liikkuminen ylös|
-| j | alas |
-| l | oikealle |
-| h | vasemmalle |
-| D | poistaa kaiken kursorin oikealla puolella |
-| cw | muuttaa kokonaisen sanan, kun kursori on sanan alussa|
-| dd | poistaa kokonaisen rivin |
-
-| x | yhden merkin poistaminen kursorin oikealta |
-| :w | tallentaa ja jättää tiedoston auki |
-| :q | lopettaa ilman tallentamista |
-| :wq tai SHIFT+zz | tallentaa ja sulkee vi-editorin |
+| `vi _tiedosto.txt_` | avaa tiedoston vi-editorille |
+| `a` | insert-tila |
+| `SHIFT` + `ENTER` | rivivaihto insert-tilassa |
+| `ESC` | pääsee pois tilasta |
+| `o` | uusi rivi |
+| `r` | muuttaa merkin kursorin jälkeen |
+| `u` | palauttaa aiemmat muutokset yksi kerralla |
+| `k` | liikkuminen ylös|
+| `j` | alas |
+| `l` | oikealle |
+| `h` | vasemmalle |
+| `D` | poistaa kaiken kursorin oikealla puolella |
+| `cw` | muuttaa kokonaisen sanan, kun kursori on sanan alussa|
+| `dd` | poistaa kokonaisen rivin |
+| `x` | yhden merkin poistaminen kursorin oikealta |
+| `:w` | tallentaa ja jättää tiedoston auki |
+| `:q` | lopettaa ilman tallentamista |
+| `:wq` tai `SHIFT`+`zz` | tallentaa ja sulkee vi-editorin |
