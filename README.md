@@ -78,6 +78,7 @@ Esim.
 |merge _haara_ | yhdistää toisen haaran muutoksia nykyiseen haaraan |
 
 ## Osiossa käyttämäni vi-komennot
+
 | Komento | Kuvaus |
 | --------| ------ |
 | vi _tiedosto.txt_ | avaa tiedoston vi-editorille |
