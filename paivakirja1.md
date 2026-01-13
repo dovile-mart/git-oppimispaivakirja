@@ -65,6 +65,7 @@ Esim.
 |merge _haara_ | yhdistää toisen haaran muutoksia nykyiseen haaraan |
 
 ## Osiossa käyttämäni vi-komennot
+
 | Komento | Kuvaus |
 | --------| ------ |
 | vi _tiedosto.txt_ | avaa tiedoston vi-editorille |
@@ -83,5 +84,5 @@ Esim.
 | dd | poistaa kokonaisen rivin |
 | x | yhden merkin poistaminen kursorin oikealta |
 | :w | tallentaa ja jättää tiedoston auki |
-|:q | lopettaa ilman tallentamista |
+| :q | lopettaa ilman tallentamista |
 | :wq tai SHIFT+zz | tallentaa ja sulkee vi-editorin |
